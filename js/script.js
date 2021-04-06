@@ -57,7 +57,8 @@ const quotes = [
 ***/
 
 function getRandomQuote() {
-  const randomQuote = Math.floor(Math.random() * quotes.length);
+  const randomNumber = Math.floor(Math.random() * quotes.length);
+  const randomQuote = quotes[randomNumber];
   return randomQuote;
 };
 
@@ -91,7 +92,7 @@ const myTimer = setInterval(printQuote, 10000);
  ***/
 
 function printQuote() {
-  const printRandomQuote = quotes[getRandomQuote()];
+  const printRandomQuote = getRandomQuote();
   let html = `
 <p class="quote"> ${printRandomQuote.quote} </p>
 <p class="source"> ${printRandomQuote.source}
