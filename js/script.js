@@ -8,7 +8,7 @@ project 1 - A Random Quote Generator
   // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
 
 /*** 
- * Here I created my Object of Arrays to contain all my quotes and their properties.
+ * Here I created my array of quote objects to contain all my quotes and their properties.
  * I decided to go with a theme for my Random Quote Generator which was Tarantino Movie Quotes! I'm a big fan :)
  * I added the director property for step 1 of Extra Credit. 
 ***/
